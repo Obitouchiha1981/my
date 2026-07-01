@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>✨🎀Happy Birthday🎀</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4,#fbc2eb,#a18cd1);
+    min-height:100vh;
+    overflow-x:hidden;
+}
+
+header{
+    text-align:center;
+    color:white;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:60px;
+    animation:pop 1s ease;
+}
+
+header p{
+    margin-top:15px;
+    font-size:22px;
+}
+
+@keyframes pop{
+    from{
+        transform:scale(0);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.gallery img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+    transition:.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+.message{
+    max-width:900px;
+    margin:auto;
+    background:rgba(255,255,255,.85);
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    font-size:22px;
+    line-height:1.7;
+    margin-bottom:40px;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:25px;
+    font-size:18px;
+}
+
+/* Floating balloons */
+.balloon{
+    position:fixed;
+    bottom:-150px;
+    font-size:40px;
+    animation:float linear infinite;
+}
+
+.balloon:nth-child(1){left:10%;animation-duration:8s;}
+.balloon:nth-child(2){left:30%;animation-duration:10s;}
+.balloon:nth-child(3){left:50%;animation-duration:7s;}
+.balloon:nth-child(4){left:70%;animation-duration:11s;}
+.balloon:nth-child(5){left:90%;animation-duration:9s;}
+.balloon:nth-child(6){left:90%;animation-duration:9s;}
+.balloon:nth-child(7){left:90%;animation-duration:9s;}
+.balloon:nth-child(8){left:50%;animation-duration:7s;}
+.balloon:nth-child(9){left:50%;animation-duration:7s;}
+
+
+@keyframes float{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-120vh);
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+<div class="balloon">🎈</div>
+
+
+<header>
+    <h1>✨🎀HAPPYYY BIRTHDAYYY KALESHI ADMI🎀</h1>
+    <p>Wishing you a day filled with happiness, laughter, and unforgettable memories!</p>
+</header>
+
+<div class="message">
+    <h2>❤️Hapyy Birthday❤️</h2>
+    <br>
+    <p>
+        Happyyyy Birthdayyyyyyy ANURAG Jiiiii 🤧 Wishing you loootsss of lovee,success and good health !!!! 
+always a dumbss for youu. Always smilee you look cute when you do hehehehhehehehe.....
+ 
+    </p>
+</div>
+
+<section class="gallery">
+    <img src="photo1.jpg" alt="Birthday Photo 1">
+    <img src="photo2.jpg" alt="Birthday Photo 2">
+    <img src="photo3.jpg" alt="Birthday Photo 3">
+    <img src="photo4.jpg" alt="Birthday Photo 4">
+    <img src="photo5.jpg" alt="Birthday Photo 5">
+    <img src="photo6.jpg" alt="Birthday Photo 6">
+    <img src="photo7.jpg" alt="Birthday Photo 7">
+    <img src="photo8.jpg" alt="Birthday Photo 8">
+    
+
+
+</section>
+
+<footer>
+    ❤️ Made with Love ❤️
+</footer>
+
+</body>
+</html>
